@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "antitreningi.ru video exporter",
+    "version": "1.0",
+    "description": "Ya mosaliv maman shaltaj boltaj na kurac napihaj",
+    "icons": {
+        "128": "128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [ "https://antitreningi.ru/*" ],
+            "js": [ "app.js" ]
+        }
+    ]
+ }
